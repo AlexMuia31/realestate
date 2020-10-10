@@ -1,23 +1,14 @@
-<div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-      <li data-target="#slides" data-slides-to="0" class="active"></li>
-       <li data-target="#slides" data-slides-to="1" ></li>
-        <li data-target="#slides" data-slides-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{% static 'images/house1.jpg' %}">
-          <div class="carousel-caption">
-            <h1 class="display-2">Aleki's RealEstate</h1>
-            <h3>We sell and rent quality homes</h3>
-            <button type="button" class="btn btn-primary btn-lg">View Houses</button>
-            <button type="button" class="btn btn-info btn-lg">contact us</button>
-        </div>
-        <div class="carousel-item active">
-          <img src="{% static 'images/house2.jpg' %}">
-        </div>
-        <div class="carousel-item active">
-          <img src="{% static 'images/house3.jpg' %}">
-        </div>
-  </div>
-</div>
+
+
+
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+
+
+<!--- Footer -->
+
+<!-- Footer -->
