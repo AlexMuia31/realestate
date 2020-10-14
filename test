@@ -1,14 +1,9 @@
 
 
 
+ <h1 class="display-4">Aleki's RealEstate</h1>
+            <p class="lead">We sell and rent quality homes</p>
+            <button type="button" class="btn btn-primary btn-lg">View Houses</button>
+            <button type="button" class="btn btn-info btn-lg">contact us</button>
 
-
-<!--- Two Column Section -->
-
-
-<!--- Connect -->
-
-
-<!--- Footer -->
-
-<!-- Footer -->
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
