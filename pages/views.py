@@ -1,10 +1,13 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView, ListView
+from .models import home
 
 # Create your views here.
 
-def index(request):
-    return render(request, 'pages/index.html')
+class index(TemplateView):
+    template_name= 'pages/index.html'
 
 
-def about(request):
-    return render(request,'pages/singlepage.html')
+class about(ListView):
+    model= home
+    template_name='pages/singlepage.html'
