@@ -22,36 +22,10 @@
         <div class="carousel-caption bg-secondary">
       <h4 class="display-5 ">Aleki's RealEstate</h4>
       <p class="lead">We sell and rent quality homes</p>
-  <form class="bg-secondary">
-  <div class="form-row .input-sm">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit form</button>
-</form>
+      <form action="{% url 'search' %}" method="get">
+        <input name="q" type="text" placeholder="Search...">
+      </form>
+
           </div> 
         </div>
     </div>
@@ -97,6 +71,13 @@
     </div>
     </div>
     </div>
+<!-- search -->
+<form class="form-inline active-purple-3 active-purple-4">
+ 
+  <input class="form-control form-control-sm ml-3 w-25" type="text" placeholder="Search No of bedrooms"
+    aria-label="Search">
+    <i class="fas fa-search" aria-hidden="true"></i>
+</form>
 
 <!--- Three Column Section -->
 <div class="container-fluid padding">
